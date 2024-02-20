@@ -1,0 +1,236 @@
+/*NOTE: This file is intended for programmers. Aspro technical support is not advised to work with him.*/
+
+/* Examples (uncomment to use):*/
+
+/* Expand site width */
+/* body .wrapper { max-width: 1400px !important;  } */
+
+/* Set site background image */
+/* body {  background: url(image_source) top no-repeat; }
+
+/* Hide compare button */
+/* a.compare_item { display: none !important;  }*/
+
+.calculate-delivery{
+	display:none;
+}
+.avail th{
+	text-align:left;
+	color: #333;
+	
+}
+.avail td{
+	text-align:left;
+	font-size:12px;
+}/*
+@media (min-width: 992px) {
+.right_block:not(.catalog_page_detail_with_left) .product-view--side-left, .right_block:not(.catalog_page_detail_with_left) .product-view--side-right{
+	width:50%;
+}
+.product-container .product-side{
+	width:50%;	
+}
+.product-info-wrap{
+	display:flex;
+	
+}
+.product-info{
+	flex-grow:1;
+}
+.product-info-right{
+	width:305px;
+}
+}*/
+
+.icons_line{
+	text-align:left;
+	display:flex;
+}
+.icon_line_1{
+    height: 50px;
+    line-height: 50px;
+	
+}
+.icon_line_1 img{
+	max-width:50px;
+}
+
+ 
+.description_product .icon_line_desc_1{
+	display:flex;
+	align-items:center;
+	background: #faf9f9;
+}
+.description_product .icon_line_desc_1_img{
+	margin-left:3px;
+}
+.description_product .icon_line_desc_1_title{
+	text-align:left;
+	margin:0px 0px 3px 5px;
+font-size: 13px;
+  line-height: 16px;	
+}
+.wrap_desc_prop_title{
+	font-size:18px;
+	border-bottom:1px solid #999;
+}
+.wrap_desc_prop{
+	display:flex;
+	width:100%;
+	flex-wrap:wrap;
+}
+
+.wrap_desc_prop .icon_line_desc_1{
+	display:flex;
+	align-items:center;
+	width:50%;
+	margin-bottom:5px;
+	margin-top:5px;
+
+}
+.wrap_desc_prop .icon_line_desc_1_img{
+	margin-left:3px;
+}
+.wrap_desc_prop .icon_line_desc_1_title{
+	text-align:left;
+	margin:0px 0px 3px 5px;
+font-size: 13px;
+  line-height: 16px;	
+}
+
+
+
+.help-tip{
+	position:relative;
+	left:10px;
+	top:-5px;
+	cursor:pointer;	
+}
+.help-tip:hover p{
+    display:inline-block;
+    transform-origin: 100% 0%;
+ 
+    -webkit-animation: fadeIn 0.3s ease-in-out;
+    animation: fadeIn 0.3s ease-in-out;
+ 
+}
+ 
+.help-tip p {  
+	position: absolute;
+	display:none;
+	bottom: 35px;
+	left: -6px;
+    background-color: #fff;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 13px;
+	color: #505050;
+    padding: 5px;
+
+    /*-moz-box-shadow: 0 1px 1px rgba(0,0,0,.16);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.16);
+    box-shadow: 0 1px 1px rgba(0,0,0,.16);*/
+	border: 1px solid #e6e3e3;
+	min-width:130px;
+ 
+}
+ 
+.help-tip p:before{
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-right: 7px solid #fff;
+    border-color: rgba(0,0,0,.16) transparent transparent transparent;
+    z-index: 1;
+}
+ 
+.help-tip p:after{
+    content: " ";
+    position: absolute;
+    top: 98%;
+    left: 10%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-right: 7px solid #fff;
+    border-color: #fff transparent transparent transparent;
+    z-index: 2;
+}
+
+.product-container .product-view--mix .product-detail-gallery{
+	border: 1px solid #ececec;
+	padding: 27px 39px 31px;
+	margin-right:35px;
+	width:40%;
+}
+.product-container .product-info, .product-info-wrapper{
+	padding:0px; border:none !important;
+}
+.product-container .product-view--mix .product-detail-gallery{
+	
+}
+.product-info-flex{
+	
+}
+.product-chars-new{
+	padding-right:35px;
+	flex-basis: 60%;
+}
+
+.product-action{
+	flex-basis:38%;
+}
+
+@media(max-width:680px){
+.product-chars-new{
+	padding-right:0px;
+	flex-basis: 100%;
+}
+
+.product-action{
+	flex-basis:100%;
+}
+.topic__heading #pagetitle{
+	font-size:18px;
+	line-height:1;
+}	
+}
+
+
+.bxr-color-button{
+padding: 11px 13px 10px;
+  border-collapse: collapse;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  background: #2a84c9;
+  color: #fff;
+  border-radius: 4px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+	
+}
+.callback_wrap{
+	display:none;
+}
+
+@media(max-width:768px){
+	.front_tizers{
+		display:none;
+	}
+}
